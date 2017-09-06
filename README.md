@@ -82,7 +82,7 @@ I use [Capra and Singh's 2007 method](http://compbio.cs.princeton.edu/conservati
 
 
 
-
+<!---
 python score_conservation.py -s js_divergence -w 3 -d
       swissprot.distribution -o alignment.scores alignment.clustal
 
@@ -262,4 +262,4 @@ ls /home/blencowe/blencowe31/harpurbr/orthodb/metazoa/7370*
 grep -A 2 7370:000927 /home/blencowe/blencowe31/harpurbr/orthodb/metazoa/metas.fs
 
 
-
+-->
