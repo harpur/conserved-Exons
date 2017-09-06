@@ -18,7 +18,7 @@ This workflow is rough (v0.01) at the moment and has some scripting steps I need
 	* odb9_fasta_metazoa.tgz (very large data set)
 
 # Extract ORTHODB IDs 
-I've provided an R script that extracts the relevant taxonomic levels of all species within orthodb v9.1 using `taxize`. It is important to check the output of this file by eye before proceeding. Occasionally, `taxize` can misplace taxanomic levels (e.g. *Loa loa* is apparently a Hymenopteran). 
+I've provided an R script that extracts the relevant taxonomic levels of all species within orthodb v9.1 using `taxize`. It is important to check the output of this file by eye before proceeding. Occasionally, `taxize` can misplace taxonomic levels (e.g. *Loa loa* is apparently a Hymenopteran). 
 
 ```R
 output_taxa.r
